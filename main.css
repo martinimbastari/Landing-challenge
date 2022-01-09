@@ -1,0 +1,51 @@
+:root {
+    --color-cheto: linear-gradient(
+        0deg,
+        rgba(44, 2, 105, 0.993) 0%,
+        rgb(221, 74, 148) 100%
+        );
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-family: 'roboto' sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: white;
+    min-height: calc(100vh - 100px);
+    margin: 0px;
+    background-attachment: fixed;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    
+    color: #000000;
+}
+
+p {
+    color: #000000af;
+}
+
+a {
+    color: #9FACE6;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
